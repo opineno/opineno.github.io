@@ -1,27 +1,45 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2487">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000}
-    span.s1 {font-kerning: none}
-    span.Apple-tab-span {white-space:pre}
-  </style>
-</head>
-<body>
-<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
-<p class="p1"><span class="s1">&lt;html&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;head&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;title&gt;opineno.github.io&lt;/title&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;/head&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;body&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;h1&gt;Let’s try this&lt;/h1&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;p&gt;IAT&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&lt;/body&gt;</span></p>
-<p class="p1"><span class="s1">&lt;html/&gt;</span></p>
-</body>
-</html>
+define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(APIConstructor, iatExtension){
+    var API = new APIConstructor();
+
+	return iatExtension({
+		category1 : {
+			name : 'Black people', //Will appear in the data.
+			title : {
+				media : {word : 'Black people'}, //Name of the category presented in the task.
+				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
+				height : 4 //Used to position the "Or" in the combined block.
+			}, 
+			stimulusMedia : [ //Stimuli content as PIP's media objects
+    		    {image : 'black1.jpg'}, 
+    			{image : 'black2.jpg'}, 
+    			{image : 'black3.jpg'}, 
+    			{image : 'black4.jpg'}, 
+    			{image : 'black5.jpg'}, 
+    			{image : 'black6.jpg'}
+			], 
+			//Stimulus css (style)
+			stimulusCss : {color:'#31940F','font-size':'1.8em'}
+		},	
+		category2 :	{
+			name : 'White people', //Will appear in the data.
+			title : {
+				media : {word : 'White people'}, //Name of the category presented in the task.
+				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
+				height : 4 //Used to position the "Or" in the combined block.
+			}, 
+			stimulusMedia : [ //Stimuli content as PIP's media objects
+    		    {image : 'yf1.jpg'}, 
+    			{image : 'yf4.jpg'}, 
+    			{image : 'yf5.jpg'}, 
+    			{image : 'ym2.jpg'}, 
+    			{image : 'ym3.jpg'}, 
+    			{image : 'ym5.jpg'}			], 
+			//Stimulus css
+			stimulusCss : {color:'#31940F','font-size':'1.8em'}
+		},	
+
+		base_url : {//Where are your images at?
+			image : 'https://baranan.github.io/minno-tasks/images/'
+		} 
+	});
+});
