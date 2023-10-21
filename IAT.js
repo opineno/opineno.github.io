@@ -10,12 +10,12 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'day1.jpg'}, 
-    			{image : 'day2.jpg'}, 
-    			{image : 'day3.jpg'}, 
-    			{image : 'day4.jpg'}, 
-    			{image : 'day5.jpg'}, 
-    			{image : 'day6.jpg'}
+    		    {image : 'day1.jpeg'}, 
+    			{image : 'day2.jpeg'}, 
+    			{image : 'day3.jpeg'}, 
+    			{image : 'day4.jpeg'}, 
+    			{image : 'day5.jpeg'}, 
+    			{image : 'day6.jpeg'}
 			], 
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
@@ -28,12 +28,12 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'night1.jpg'}, 
-    			{image : 'night2.jpg'}, 
-    			{image : 'night3.jpg'}, 
-    			{image : 'night4.jpg'}, 
-    			{image : 'night5.jpg'}, 
-    			{image : 'night6.jpg'}			], 
+    		    {image : 'night1.jpeg'}, 
+    			{image : 'night2.jpeg'}, 
+    			{image : 'night3.jpeg'}, 
+    			{image : 'night4.jpeg'}, 
+    			{image : 'night5.jpeg'}, 
+    			{image : 'night6.jpeg'}			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
