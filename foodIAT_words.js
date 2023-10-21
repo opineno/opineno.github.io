@@ -2,6 +2,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
     var API = new APIConstructor();
 
 	return iatExtension({
+		//OP note: This overrides the categories in fullscript.js
+
 		category1 : {
 			name : 'Healthy food', //Will appear in the data.
 			title : {
@@ -36,7 +38,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
     			{word : 'Junk food 6'}			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
-		},	
+		},
+
+		//OP note: To edit the attributes (good vs. bad words), copy them here from fullscript.js and make the changes.
 
 		base_url : {//Where are your images at?
 			image : 'https://opineno.github.io/images/'
