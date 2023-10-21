@@ -36,7 +36,51 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
     			{image : 'night6.jpeg'}			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
-		},	
+		},
+		
+		attribute1 :
+			{
+				name : 'Bad outcomes',
+				title : {
+					media : {word : 'Bad words'},
+					css : {color:'#0000FF','font-size':'1.8em'},
+					height : 4 //Used to position the "Or" in the combined block.
+				},
+				stimulusMedia : [ //Stimuli content as PIP's media objects
+					{word: 'fat'},
+					{word: 'sick'},
+					{word: 'weak'},
+					{word: 'lazy'},
+					{word: 'sleepy'},
+					{word: 'anxious'},
+					{word: 'depressed'},
+					{word: 'vomit'}
+				],
+				//Stimulus css
+				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
+			},
+			attribute2 :
+			{
+				name : 'Good words',
+				title : {
+					media : {word : 'Good words'},
+					css : {color:'#0000FF','font-size':'1.8em'},
+					height : 4 //Used to position the "Or" in the combined block.
+				},
+				stimulusMedia : [ //Stimuli content as PIP's media objects
+					{word: 'energized'},
+					{word: 'happy'},
+					{word: 'strong'},
+					{word: 'healthy'},
+					{word: 'focused'},
+					{word: 'relaxed'},
+					{word: 'motivated'},
+					{word: 'fit'}
+				],
+				//Stimulus css
+				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
+			},
+
 
 		base_url : {//Where are your images at?
 			image : 'https://opineno.github.io/images/'
