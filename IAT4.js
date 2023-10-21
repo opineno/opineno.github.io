@@ -38,7 +38,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},
 		
-		attribute1 :
+		/*attribute1 :
 			{
 				name : 'Bad outcomes',
 				title : {
@@ -79,7 +79,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 				],
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
-			},
+			},*/
 
 
 		base_url : {//Where are your images at?
