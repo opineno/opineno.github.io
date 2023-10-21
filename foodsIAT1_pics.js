@@ -36,7 +36,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
     			{image : 'junk6.jpeg'}			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
-		},	
+		},
 
 		base_url : {//Where are your images at?
 			image : 'https://opineno.github.io/images/'
