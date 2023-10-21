@@ -3,7 +3,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 
 	return iatExtension({
 		category1 : {
-			name : 'Black people', //Will appear in the data.
+			name : 'Day pics', //Will appear in the data.
 			title : {
 				media : {word : 'Black people'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
@@ -21,7 +21,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
 		category2 :	{
-			name : 'White people', //Will appear in the data.
+			name : 'Night pics', //Will appear in the data.
 			title : {
 				media : {word : 'White people'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
