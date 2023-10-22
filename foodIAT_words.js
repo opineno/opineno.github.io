@@ -12,12 +12,12 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		  {word : 'Healthy food 1'}, 
-    			{word : 'Healthy food 2'}, 
-    			{word : 'Healthy food 3'}, 
-    			{word : 'Healthy food 4'}, 
-    			{word : 'Healthy food 5'}, 
-    			{word : 'Healthy food 6'}
+    		  	{word : 'Almonds'}, 
+    			{word : 'Blueberries'}, 
+    			{word : 'Salmon'}, 
+    			{word : 'Eggs'}, 
+    			{word : 'Avocado'}, 
+    			{word : 'Broccoli'}
 			], 
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
@@ -30,12 +30,12 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		  {word : 'Junk food 1'}, 
-    			{word : 'Junk food 2'}, 
-    			{word : 'Junk food 3'}, 
-    			{word : 'Junk food 4'}, 
-    			{word : 'Junk food 5'}, 
-    			{word : 'Junk food 6'}			], 
+    		  	{word : 'Potato chips'}, 
+    			{word : 'French fries'}, 
+    			{word : 'Fried chicken'}, 
+    			{word : 'Pizza'}, 
+    			{word : 'Soda'}, 
+    			{word : 'Candy bars'}			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},
