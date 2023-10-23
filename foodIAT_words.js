@@ -35,7 +35,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
     			{word : 'Fried chicken'}, 
     			{word : 'Pizza'}, 
     			{word : 'Soda'}, 
-    			{word : 'Candy bars'}			], 
+    			{word : 'Candy bar'}			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},
