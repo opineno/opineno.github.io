@@ -13,12 +13,12 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
           		height : 4 //Used to position the "Or" in the combined block.
             		}, 
             		stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    	{image : 'Potato_chips.jpg'}, 
-        		{image : 'French_fries.jpg'}, 
-        		{image : 'Fried_chicken.jpg'}, 
-        		{image : 'Pizza.jpg'}, 
-        		{image : 'Soda.jpg'}, 
-        	        {image : 'Candy_bar.jpg'}  ], 
+    		    	{image : 'Facebook.jpg'}, 
+        		{image : 'Instagram.jpg'}, 
+        		{image : 'Snapchat.jpg'}, 
+        		{image : 'TikTok.jpg'}, 
+        		{image : 'X.jpg'}, 
+        	        {image : 'YouTube.jpg'}  ], 
         	    	//Stimulus css
             		stimulusCss : {color:'#31940F','font-size':'1.8em'}
 	      	      },
@@ -30,12 +30,12 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 			height : 4 //Used to position the "Or" in the combined block.
 		        }, 
 		        stimulusMedia : [ //Stimuli content as PIP's media objects
-    		        {image : 'Almonds.jpg'}, 
-    	        	{image : 'Blueberries.jpg'}, 
-    	        	{image : 'Salmon.jpg'}, 
-            		{image : 'Eggs.jpg'}, 
-            		{image : 'Avocado.jpg'}, 
-    	        	{image : 'Broccoli.jpg'}  ], 
+    		        {image : 'Calculator.jpg'}, 
+    	        	{image : 'Calendar.jpg'}, 
+    	        	{image : 'Clock.jpg'}, 
+            		{image : 'Maps.jpg'}, 
+            		{image : 'Notes.jpg'}, 
+    	        	{image : 'Weather.jpg'}  ], 
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		      },	
