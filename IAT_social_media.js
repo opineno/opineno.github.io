@@ -6,9 +6,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 		//OP note: category1 and category2 now inverted to match their compatible attributes in the main source code
     
           	category1 : {
-			name : 'Junk food', //Will appear in the data.
+			name : 'Social media', //Will appear in the data.
 		        title : {
-	          	media : {word : 'Junk food'}, //Name of the category presented in the task.
+	          	media : {word : 'Social media'}, //Name of the category presented in the task.
 	          	css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
           		height : 4 //Used to position the "Or" in the combined block.
             		}, 
@@ -23,9 +23,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
             		stimulusCss : {color:'#31940F','font-size':'1.8em'}
 	      	      },
           	category2 : {
-			name : 'Healthy food', //Will appear in the data.
+			name : 'Productivity', //Will appear in the data.
 		        title : {
-		        media : {word : 'Healthy food'}, //Name of the category presented in the task.
+		        media : {word : 'Productivity'}, //Name of the category presented in the task.
 		        css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 			height : 4 //Used to position the "Or" in the combined block.
 		        }, 
@@ -41,7 +41,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 		      },	
     
 		base_url : {//Where are your images at?
-			image : 'https://opineno.github.io/IAT_foods/images/'
+			image : 'https://opineno.github.io/IAT_social_media/images/'
 		} 
 	});
 });
