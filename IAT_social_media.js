@@ -1,6 +1,5 @@
 define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fullscript.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
-	
 
 	return iatExtension({
                 //OP note: This overrides the categories in fullscript.js
