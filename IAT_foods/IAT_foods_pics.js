@@ -41,7 +41,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 		      },	
     
 		base_url : {//Where are your images at?
-			image : 'https://opineno.github.io/images/'
+			image : 'https://opineno.github.io/IAT_foods/images/'
 		} 
 	});
 });
