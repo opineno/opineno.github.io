@@ -69,7 +69,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			{
 				name : 'Bad words',
 				title : {
-					media : {word : 'Bad words'},
+					media : {word : 'Palabras malas'},
 					css : {color:'#0000FF','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 				},
@@ -90,7 +90,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			{
 				name : 'Good words',
 				title : {
-					media : {word : 'Good words'},
+					media : {word : 'Palabras buenas'},
 					css : {color:'#0000FF','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 				},
