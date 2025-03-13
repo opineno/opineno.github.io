@@ -6,7 +6,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 		//OP note: category1 and category2 now inverted to match their compatible attributes in the main source code
     
           	category1 : {
-			name : 'Junk food', //Will appear in the data.
+			name : 'Comida basura', //Will appear in the data.
 		        title : {
 	          	media : {word : 'Comida basura'}, //Name of the category presented in the task.
 	          	css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
@@ -23,7 +23,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
             		stimulusCss : {color:'#31940F','font-size':'1.8em'}
 	      	      },
           	category2 : {
-			name : 'Healthy food', //Will appear in the data.
+			name : 'Comida sana', //Will appear in the data.
 		        title : {
 		        media : {word : 'Comida sana'}, //Name of the category presented in the task.
 		        css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
