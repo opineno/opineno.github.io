@@ -153,8 +153,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			fontColor : '#000000', //The default color used for printed messages.
 			
 			//Text and style for key instructions displayed about the category labels.
-			leftKeyText : 'Press "E" for', 
-			rightKeyText : 'Press "I" for', 
+			leftKeyText : 'Presiona "E" para', 
+			rightKeyText : 'Presiona "I" para', 
 			keysCss : {'font-size':'0.8em', 'font-family':'courier', color:'#000000'},
 			//Text and style for the separator between the top and bottom category labels.
 			orText : 'or', 
@@ -177,10 +177,10 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instAttributePractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'Put a left finger on the <b>E</b> key for items that belong to the category <font color="#0000ff">leftAttribute.</font>' +
-				'<br/>Put a right finger on the <b>I</b> key for items that belong to the category <font color="#0000ff">rightAttribute</font>.<br/><br/>' +
-				'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
-				'Press the other key to continue.<br/>' +
+				'Pon un dedo izquierdo en la tecla <b>E</b> para elementos pertenecientes a la categoría <font color="#0000ff">leftAttribute.</font>' +
+				'<br/>Pon un dedo derecho en la tecla <b>I</b> para elementos pertenecientes a la categoría <font color="#0000ff">rightAttribute</font>.<br/><br/>' +
+				'Si cometes un error, una <font color="#ff0000"><b>X</b></font> roja aparecerá. ' +
+				'Presiona la otra tecla para continuar.<br/>' +
 				'<u>Go as fast as you can</u> while being accurate.<br/><br/></p>'+
 				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>',
 			instAttributePracticeTouch: [
@@ -190,13 +190,13 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					'</p>',
 					'<p align="left" style="margin-left:5px">',
 						'<br/>',
-						'Put a left finger over the the <b>left</b> green area for items that belong to the category <font color="#0000ff">leftAttribute</font>.<br/>',
-						'Put a right finger over the <b>right</b> green area for items that belong to the category <font color="#0000ff">rightAttribute</font>.<br/>',
-						'Items will appear one at a time.<br/>',
+						'Pon un dedo izquierdo sobre el area verde de la <b>izquierda</b> para elementos que pertenecen a la categoría <font color="#0000ff">leftAttribute</font>.<br/>',
+						'Pon un dedo izquierdo sobre el area verde de la <b>derecha</b> para elementos que pertenecen a la categoría <font color="#0000ff">rightAttribute</font>.<br/>',
+						'Los elementos apareceran uno por uno.<br/>',
 						'<br/>',
-						'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. Touch the other side. <u>Go as fast as you can</u> while being accurate.',
+						'Si cometes un error, una <font color="#ff0000"><b>X</b></font> roja aparecerá. Toca el otro lado. <u>Ve lo más rápido que puedas</u> tratando de ser correcto.',
 					'</p>',
-					'<p align="center">Touch the <b>lower </b> green area to start.</p>',
+					'<p align="center">Presiona la zona verde <b>de abajo</b> para comenzar.</p>',
 				'</div>'
 			].join('\n'),
 
