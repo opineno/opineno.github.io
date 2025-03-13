@@ -256,12 +256,12 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instSecondCombined : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'This is the same as the previous part.<br/>' +
-				'Use the <b>E</b> key for <font color="#336600">leftCategory</font> and for <font color="#0000ff">leftAttribute</font>.<br/>' +
-				'Use the <b>I</b> key for <font color="#336600">rightCategory</font> and for  <font color="#0000ff">rightAttribute</font>.<br/>' +
-				'Each item belongs to only one category.<br/><br/>' +
-				'<u>Go as fast as you can</u> while being accurate.<br/><br/></p>' +
-				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>',
+				'Esto es idéntico a la parte previa.<br/>' +
+				'Usa la tecla <b>E</b> para <font color="#336600">leftCategory</font> y para <font color="#0000ff">leftAttribute</font>.<br/>' +
+				'Usa la tecla <b>I</b> para <font color="#336600">rightCategory</font> y para  <font color="#0000ff">rightAttribute</font>.<br/>' +
+				'Cada elemento pertenece sólo a una categoría.<br/><br/>' +
+				'<u>Ve lo más rápido que puedas</u> tratando de ser correcto.<br/><br/></p>' +
+				'<p align="center">Presiona la <b>barra espaciadora</b> cuando estés listo/a para comenzar.</font></p></div>',
 			instSecondCombinedTouch:[
 				'<div>',
 					'<p align="center"><u>Part blockNum of nBlocks</u></p>',
@@ -269,23 +269,23 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					'<br/>',
 
 					'<p align="left" style="margin-left:5px">',
-						'Put a left finger over the <b>left</b> green area for <font color="#336600">leftCategory</font> items and for <font color="#0000ff">leftAttribute</font>.<br/>',
-						'Put a right finger over the <b>right</b> green area for <font color="#336600">rightCategory</font> items and for <font color="#0000ff">rightAttribute</font>.<br/>',
+						'Pon un dedo izquiero sobre la zona verde de la <b>izquierda</b> para elementos de <font color="#336600">leftCategory</font> y para <font color="#0000ff">leftAttribute</font>.<br/>',
+						'Pon un dedo derecho sobre la zona verde de la <b>derecha</b> para elementos de <font color="#336600">rightCategory</font> y para <font color="#0000ff">rightAttribute</font>.<br/>',
 						'<br/>',
-						'<u>Go as fast as you can</u> while being accurate.<br/>',
+						'<u>Ve lo más rápido que puedas</u> tratando de ser correcto.<br/>',
 					'</p>',
-					'<p align="center">Touch the <b>lower </b> green area to start.</p>',
+					'<p align="center">Presiona la zona verde <b>de abajo</b> para comenzar.</p>',
 				'</div>'
 			].join('\n'),
 
 			instSwitchCategories : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'<b>Watch out, the labels have changed position!</b><br/>' +
-				'Use the left finger on the <b>E</b> key for <font color="#336600">leftCategory</font>.<br/>' +
-				'Use the right finger on the <b>I</b> key for <font color="#336600">rightCategory</font>.<br/><br/>' +
-				'<u>Go as fast as you can</u> while being accurate.<br/><br/></p>' +
-				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>',
+				'<b>Presta atención, las etiquetas han cambiado de posición!</b><br/>' +
+				'Usa el dedo izquierdo en la tecla <b>E</b> para <font color="#336600">leftCategory</font>.<br/>' +
+				'Usa el dedo derecho en la tecla <b>I</b> para <font color="#336600">rightCategory</font>.<br/><br/>' +
+				'<u>Ve lo más rápido que puedas</u> tratando de ser correcto.<br/><br/></p>' +
+				'<p align="center">Presiona la zona verde <b>de abajo</b> para comenzar.</font></p></div>',
 			instSwitchCategoriesTouch: [
 				'<div>',
 					'<p align="center">',
@@ -294,13 +294,13 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					'<p align="left" style="margin-left:5px">',
 						'<br/>',
 						'Watch out, the labels have changed position!<br/>',
-							'Put a left finger over the <b>left</b> green area for <font color="#336600">leftCategory</font> items.<br/>',
-							'Put a right finger over the <b>right</b> green area for <font color="#336600">rightCategory</font> items.<br/>',
-							'Items will appear one at a time.',
+							'Pon un dedo izquiero sobre la zona verde de la <b>izquierda</b> para <font color="#336600">leftCategory</font> items.<br/>',
+							'Pon un dedo derecho sobre la zona verde de la <b>derecha</b> para <font color="#336600">rightCategory</font> items.<br/>',
+							'Los elementos apareceran uno por uno.',
 							'<br/>',
-							'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. Touch the other side. <u>Go as fast as you can</u> while being accurate.<br/>',
+							'Si cometes un error, una <font color="#ff0000"><b>X</b></font> roja aparecerá. Toca el otro lado. <u>Ve lo más rápido que puedas</u> tratando de ser correcto.<br/>',
 						'</p>',
-						'<p align="center">Touch the <b>lower </b> green area to start.</p>',
+						'<p align="center">Presiona la zona verde <b>de abajo</b> para comenzar.</p>',
 				'</div>'
 			].join('\n'),
 
@@ -313,15 +313,15 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//attribute1, and attribute2 will be replaced with the name of attribute1 and attribute2.
 			//categoryA is the name of the category that is found to be associated with attribute1,
 			//and categoryB is the name of the category that is found to be associated with attribute2.
-			fb_strong_Att1WithCatA_Att2WithCatB : 'Your responses suggested a strong automatic preference for categoryB over categoryA.',
-			fb_moderate_Att1WithCatA_Att2WithCatB : 'Your responses suggested a moderate automatic preference for categoryB over categoryA.',
-			fb_slight_Att1WithCatA_Att2WithCatB : 'Your responses suggested a slight automatic preference for categoryB over categoryA.',
-			fb_equal_CatAvsCatB : 'Your responses suggested no automatic preference between categoryA and categoryB.',
+			fb_strong_Att1WithCatA_Att2WithCatB : 'Tus respuestas sugieren una preferencia fuerte automática de categoryB sobre categoryA.',
+			fb_moderate_Att1WithCatA_Att2WithCatB : 'Tus respuestas sugieren una preferencia moderada automática de categoryB sobre categoryA.',
+			fb_slight_Att1WithCatA_Att2WithCatB : 'Tus respuestas sugieren una preferencia leve automática de categoryB sobre categoryA.',
+			fb_equal_CatAvsCatB : 'Tus respuestas no sugieren una preferencia automática entre categoryA y categoryB.',
 
 			//Error messages in the feedback
-			manyErrors: 'There were too many errors made to determine a result.',
-			tooFast: 'There were too many fast trials to determine a result.',
-			notEnough: 'There were not enough trials to determine a result.'
+			manyErrors: 'Se cometieron demasiados errores para determinar un resultado.',
+			tooFast: 'Han habido ensayos demasiados rápidos para determinar un resultado.',
+			notEnough: 'No han habido suficientes ensayos para determinar un resultado.'
 		};
 
 		// extend the "current" object with the default
