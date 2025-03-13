@@ -67,7 +67,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},
 			attribute1 :
 			{
-				name : 'Bad words',
+				name : 'Palabras malas',
 				title : {
 					media : {word : 'Palabras malas'},
 					css : {color:'#0000FF','font-size':'1.8em'},
@@ -88,7 +88,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},
 			attribute2 :
 			{
-				name : 'Good words',
+				name : 'Palabras buenas',
 				title : {
 					media : {word : 'Palabras buenas'},
 					css : {color:'#0000FF','font-size':'1.8em'},
