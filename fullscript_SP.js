@@ -139,11 +139,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			remindError : true,
 
 			remindErrorText : '<p align="center" style="font-size:"0.6em"; font-family:arial">' +
-			'Si cometes un error, una <font color="#ff0000"><b>X</b></font> roja aparecerá.' +
+			'Si cometes un error, una <font color="#ff0000"><b>X</b></font> roja aparecerá. ' +
 			'Presiona la otra tecla para continuar.<p/>',
 
 			remindErrorTextTouch : '<p align="center" style="font-size:"1.4em"; font-family:arial">' +
-			'Si cometes un error, una <font color="#ff0000"><b>X</b></font> roja aparecerá.' +
+			'Si cometes un error, una <font color="#ff0000"><b>X</b></font> roja aparecerá. ' +
 			'Toca el otro lado para comenzar.<p/>',
 
 			errorCorrection : true, //Should participants correct error responses?
@@ -175,7 +175,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			// leftCategory, rightCategory, leftAttribute and rightAttribute, blockNum, nBlocks.
 			// Notice that this is HTML text.
 			instAttributePractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+				'<font color="#000000"><u>Parte blockNum de nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Pon un dedo izquierdo en la tecla <b>E</b> para elementos pertenecientes a la categoría <font color="#0000ff">leftAttribute.</font>' +
 				'<br/>Pon un dedo derecho en la tecla <b>I</b> para elementos pertenecientes a la categoría <font color="#0000ff">rightAttribute</font>.<br/><br/>' +
@@ -186,7 +186,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instAttributePracticeTouch: [
 				'<div>',
 					'<p align="center">',
-						'<u>Part blockNum of nBlocks</u>',
+						'<u>Parte blockNum de nBlocks</u>',
 					'</p>',
 					'<p align="left" style="margin-left:5px">',
 						'<br/>',
@@ -201,19 +201,19 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			].join('\n'),
 
 			instCategoriesPractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+				'<font color="#000000"><u>Parte blockNum de nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Pon un dedo izquierdo en la tecla <b>E</b> para elementos pertenecientes a la categoría <font color="#336600">leftCategory</font>. ' +
 				'<br/>Pon un dedo derecho en la tecla <b>I</b> para elementos pertenecientes a la categoría <font color="#336600">rightCategory</font>.<br/>' +
 				'Los elementos apareceran uno por uno.<br/><br/>' +
-				'Si cometes un error, una <font color="#ff0000"><b>X</b></font> roja aparecerá.' +
+				'Si cometes un error, una <font color="#ff0000"><b>X</b></font> roja aparecerá. ' +
 				'Presiona la otra tecla para continuar.<br/>' +
 				'<u>Ve lo más rápido que puedas</u> tratando de ser correcto.<br/><br/></p>'+
 				'<p align="center">Presiona la <b>barra espaciadora</b> cuando estés listo/a para comenzar.</font></p></div>',
 			instCategoriesPracticeTouch: [
 				'<div>',
 					'<p align="center">',
-						'<u>Part blockNum of nBlocks</u>',
+						'<u>Parte blockNum de nBlocks</u>',
 					'</p>',
 					'<p align="left" style="margin-left:5px">',
 						'<br/>',
@@ -228,19 +228,19 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			].join('\n'),
 
 			instFirstCombined : '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+				'<font color="#000000"><u>Parte blockNum de nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Usa la tecla <b>E</b> para <font color="#336600">leftCategory</font> y para <font color="#0000ff">leftAttribute</font>.<br/>' +
 				'Usa la tecla <b>I</b> para <font color="#336600">rightCategory</font> y para <font color="#0000ff">rightAttribute</font>.<br/>' +
 				'Cada elemento pertenece sólo a una categoría.<br/><br/>' +
-				'Si cometes un error, una <font color="#ff0000"><b>X</b></font> roja aparecerá.' +
+				'Si cometes un error, una <font color="#ff0000"><b>X</b></font> roja aparecerá. ' +
 				'Presiona la otra tecla para continuar.<br/>' + 
 				'<u>Ve lo más rápido que puedas</u> tratando de ser correcto.<br/><br/></p>' +
 				'<p align="center">Presiona la <b>barra espaciadora</b> cuando estés listo/a para comenzar.</font></p></div>',
 			instFirstCombinedTouch:[
 				'<div>',
 					'<p align="center">',
-						'<u>Part blockNum of nBlocks</u>',
+						'<u>Parte blockNum de nBlocks</u>',
 					'</p>',
 					'<br/>',
 					'<br/>',
@@ -254,7 +254,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			].join('\n'),
 
 			instSecondCombined : '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+				'<font color="#000000"><u>Parte blockNum de nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Esto es idéntico a la parte previa.<br/>' +
 				'Usa la tecla <b>E</b> para <font color="#336600">leftCategory</font> y para <font color="#0000ff">leftAttribute</font>.<br/>' +
@@ -264,7 +264,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<p align="center">Presiona la <b>barra espaciadora</b> cuando estés listo/a para comenzar.</font></p></div>',
 			instSecondCombinedTouch:[
 				'<div>',
-					'<p align="center"><u>Part blockNum of nBlocks</u></p>',
+					'<p align="center"><u>Parte blockNum de nBlocks</u></p>',
 					'<br/>',
 					'<br/>',
 
@@ -279,17 +279,17 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			].join('\n'),
 
 			instSwitchCategories : '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+				'<font color="#000000"><u>Parte blockNum de nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'<b>Presta atención, las etiquetas han cambiado de posición!</b><br/>' +
 				'Usa el dedo izquierdo en la tecla <b>E</b> para <font color="#336600">leftCategory</font>.<br/>' +
 				'Usa el dedo derecho en la tecla <b>I</b> para <font color="#336600">rightCategory</font>.<br/><br/>' +
 				'<u>Ve lo más rápido que puedas</u> tratando de ser correcto.<br/><br/></p>' +
-				'<p align="center">Presiona la zona verde <b>de abajo</b> para comenzar.</font></p></div>',
+				'<p align="center">Presiona la <b>barra espaciadora</b> cuando estés listo/a para comenzar.</font></p></div>',
 			instSwitchCategoriesTouch: [
 				'<div>',
 					'<p align="center">',
-						'<u>Part blockNum of nBlocks</u>',
+						'<u>Parte blockNum de nBlocks</u>',
 					'</p>',
 					'<p align="left" style="margin-left:5px">',
 						'<br/>',
