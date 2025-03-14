@@ -67,9 +67,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},
 			attribute1 :
 			{
-				name : 'Palabras malas',
+				name : 'Palabras negativas',
 				title : {
-					media : {word : 'Palabras malas'},
+					media : {word : 'Palabras negativas'},
 					css : {color:'#0000FF','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 				},
@@ -88,9 +88,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},
 			attribute2 :
 			{
-				name : 'Palabras buenas',
+				name : 'Palabras positivas',
 				title : {
-					media : {word : 'Palabras buenas'},
+					media : {word : 'Palabras positivas'},
 					css : {color:'#0000FF','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 				},
