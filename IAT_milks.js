@@ -6,36 +6,36 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 		//OP note: category1 and category2 now inverted to match their compatible attributes in the main source code
     
           	category1 : {
-			name : 'Junk food', //Will appear in the data.
+			name : 'Dairy milk', //Will appear in the data.
 		        title : {
-	          	media : {word : 'Junk food'}, //Name of the category presented in the task.
+	          	media : {word : 'Dairy milk'}, //Name of the category presented in the task.
 	          	css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
           		height : 4 //Used to position the "Or" in the combined block.
             		}, 
             		stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    	{image : 'Potato_chips.jpg'}, 
-        		{image : 'French_fries.jpg'}, 
-        		{image : 'Fried_chicken.jpg'}, 
-        		{image : 'Pizza.jpg'}, 
-        		{image : 'Soda.jpg'}, 
-        	        {image : 'Candy_bar.jpg'}  ], 
+    		    	{image : 'Cow1.jpg'}, 
+        		{image : 'Cow1.jpg'}, 
+        		{image : 'Cow2.jpg'}, 
+        		{image : 'Cow2.jpg'}, 
+        		{image : 'Cow3.jpg'}, 
+        	        {image : 'Cow3.jpg'}  ], 
         	    	//Stimulus css
             		stimulusCss : {color:'#31940F','font-size':'1.8em'}
 	      	      },
           	category2 : {
-			name : 'Healthy food', //Will appear in the data.
+			name : 'Oat milk', //Will appear in the data.
 		        title : {
-		        media : {word : 'Healthy food'}, //Name of the category presented in the task.
+		        media : {word : 'Oat milk'}, //Name of the category presented in the task.
 		        css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 			height : 4 //Used to position the "Or" in the combined block.
 		        }, 
 		        stimulusMedia : [ //Stimuli content as PIP's media objects
-    		        {image : 'Almonds.jpg'}, 
-    	        	{image : 'Blueberries.jpg'}, 
-    	        	{image : 'Salmon.jpg'}, 
-            		{image : 'Eggs.jpg'}, 
-            		{image : 'Avocado.jpg'}, 
-    	        	{image : 'Broccoli.jpg'}  ], 
+    		        {image : 'Oat1.jpg'}, 
+    	        	{image : 'Oat1.jpg'}, 
+    	        	{image : 'Oat2.jpg'}, 
+            		{image : 'Oat2.jpg'}, 
+            		{image : 'Oat3.jpg'}, 
+    	        	{image : 'Oat3.jpg'}  ], 
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		      },	
