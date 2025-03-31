@@ -23,9 +23,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
             		stimulusCss : {color:'#31940F','font-size':'1.8em'}
 	      	      },
           	category2 : {
-			name : 'Oat milk', //Will appear in the data.
+			name : 'Plant-based milk', //Will appear in the data.
 		        title : {
-		        media : {word : 'Oat milk'}, //Name of the category presented in the task.
+		        media : {word : 'Plant-based milk'}, //Name of the category presented in the task.
 		        css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 			height : 4 //Used to position the "Or" in the combined block.
 		        }, 
