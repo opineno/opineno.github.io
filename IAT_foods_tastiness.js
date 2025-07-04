@@ -22,7 +22,6 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
         	    	//Stimulus css
             		stimulusCss : {color:'#31940F','font-size':'1.8em'}
 	      	      },
-    
 		category2 : {
 			name : 'Healthy food', //Will appear in the data.
 		        title : {
@@ -40,7 +39,6 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		      },
-
 		attribute1 : {
 			name : 'Not Enjoyable',
 			title : {
@@ -59,7 +57,6 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 			//Stimulus css
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 			},
-		
 		attribute2 : {
 			name : 'Enjoyable',
 			title : {
