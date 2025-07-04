@@ -5,7 +5,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
                 //OP note: This overrides the categories in fullscript.js
 		//OP note: category1 and category2 now inverted to match their compatible attributes in the main source code
     
-category1 : {
+		category1 : {
 			name : 'Junk food', //Will appear in the data.
 		        title : {
 	          	media : {word : 'Junk food'}, //Name of the category presented in the task.
@@ -23,7 +23,7 @@ category1 : {
             		stimulusCss : {color:'#31940F','font-size':'1.8em'}
 	      	      },
     
-category2 : {
+		category2 : {
 			name : 'Healthy food', //Will appear in the data.
 		        title : {
 		        media : {word : 'Healthy food'}, //Name of the category presented in the task.
@@ -41,7 +41,7 @@ category2 : {
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		      },
 
-attribute1 : {
+		attribute1 : {
 			name : 'Not Enjoyable',
 			title : {
 			media : {word : 'Not Enjoyable'},
@@ -50,7 +50,7 @@ attribute1 : {
 			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
 			{word: 'disliked'},
-      {word: 'less tasty'},
+      			{word: 'less tasty'},
 			{word: 'unappealing'},
 			{word: 'bland'},
 			{word: 'flavorless'},
@@ -60,7 +60,7 @@ attribute1 : {
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 			},
 		
-attribute2 : {
+		attribute2 : {
 			name : 'Enjoyable',
 			title : {
 			media : {word : 'Enjoyable'},
