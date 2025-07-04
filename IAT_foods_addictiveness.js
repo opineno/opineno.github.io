@@ -40,38 +40,40 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		      },
 		attribute1 : {
-			name : 'Not Enjoyable',
+			name : 'Restraint',
 			title : {
-			media : {word : 'Not Enjoyable'},
+			media : {word : 'Restraint'},
 			css : {color:'#0000FF','font-size':'1.8em'},
 			height : 4 //Used to position the "Or" in the combined block.
 			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-			{word: 'disliked'},
-			{word: 'less tasty'},
-			{word: 'unappealing'},
-			{word: 'bland'},
-			{word: 'flavorless'},
-			{word: 'unappetizing'},
-			{word: 'unpalatable'}	],
+			{word: 'resist'},
+			{word: 'refrain'},
+			{word: 'avoid'},
+			{word: 'reject'},
+			{word: 'uninterested'},
+			{word: 'control'},
+			{word: 'deny'},
+			{word: 'suppress'}	],
 			//Stimulus css
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 			},
 		attribute2 : {
-			name : 'Enjoyable',
+			name : 'Craving',
 			title : {
-			media : {word : 'Enjoyable'},
+			media : {word : 'Craving'},
 			css : {color:'#0000FF','font-size':'1.8em'},
 			height : 4 //Used to position the "Or" in the combined block.
 			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-			{word: 'tasty'},
-			{word: 'delicious'},
-			{word: 'yummy'},
-			{word: 'appetizing'},
-			{word: 'flavorful'},
-			{word: 'appealing'},
-			{word: 'mouthwatering'}	],
+			{word: 'crave'},
+			{word: 'desire'},
+			{word: 'urge'},
+			{word: 'temptation'},
+			{word: 'need'},
+			{word: 'want'},
+			{word: 'longing'},
+			{word: 'hungry'}	],
 			//Stimulus css
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 			},
