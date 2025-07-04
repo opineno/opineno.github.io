@@ -38,8 +38,44 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
     	        	{image : 'Broccoli.jpg'}  ], 
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
-		      },	
-    
+		      },
+		attribute1 : {
+			name : 'Not Enjoyable',
+			title : {
+			media : {word : 'Not Enjoyable'},
+			css : {color:'#0000FF','font-size':'1.8em'},
+			height : 4 //Used to position the "Or" in the combined block.
+			},
+			stimulusMedia : [ //Stimuli content as PIP's media objects
+			{word: 'disliked'},
+			{word: 'less tasty'},
+			{word: 'unappealing'},
+			{word: 'bland'},
+			{word: 'flavorless'},
+			{word: 'unappetizing'},
+			{word: 'unpalatable'}	],
+			//Stimulus css
+			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
+			},
+		attribute2 : {
+			name : 'Enjoyable',
+			title : {
+			media : {word : 'Enjoyable'},
+			css : {color:'#0000FF','font-size':'1.8em'},
+			height : 4 //Used to position the "Or" in the combined block.
+			},
+			stimulusMedia : [ //Stimuli content as PIP's media objects
+			{word: 'tasty'},
+			{word: 'delicious'},
+			{word: 'yummy'},
+			{word: 'appetizing'},
+			{word: 'flavorful'},
+			{word: 'appealing'},
+			{word: 'mouthwatering'}	],
+			//Stimulus css
+			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
+			},
+
 		base_url : {//Where are your images at?
 			image : 'https://opineno.github.io/IAT_foods/images/'
 		} 
