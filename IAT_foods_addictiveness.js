@@ -47,14 +47,14 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 			height : 4 //Used to position the "Or" in the combined block.
 			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-			{word: 'resist'},
-			{word: 'refrain'},
-			{word: 'avoid'},
-			{word: 'reject'},
+			{word: 'reserved'},
+			{word: 'controlled'},
+			{word: 'disciplined'},
+			{word: 'indifferent'},
 			{word: 'uninterested'},
-			{word: 'control'},
-			{word: 'deny'},
-			{word: 'suppress'}	],
+			{word: 'detached'},
+			{word: 'rejecting'},
+			{word: 'avoidant'}	],
 			//Stimulus css
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 			},
@@ -66,14 +66,14 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 			height : 4 //Used to position the "Or" in the combined block.
 			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-			{word: 'crave'},
-			{word: 'desire'},
-			{word: 'urge'},
-			{word: 'temptation'},
-			{word: 'need'},
-			{word: 'want'},
-			{word: 'longing'},
-			{word: 'hungry'}	],
+			{word: 'indulgent'},
+			{word: 'tempted'},
+			{word: 'desirous'},
+			{word: 'hungry'},
+			{word: 'insatiable'},
+			{word: 'irresistible'},
+			{word: 'addictive'},
+			{word: 'mouthwatering'}	],
 			//Stimulus css
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 			},
