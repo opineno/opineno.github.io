@@ -40,37 +40,39 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		      },	
     		attribute1 : {
-				name : 'Desagradable',
+				name : 'Moderación',
 				title : {
 					media : {word : 'Desagradable'},
 					css : {color:'#0000FF','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 					},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'repugnante'},
-      				{word: 'menos sabroso'},
-					{word: 'poco atractivo'},
-					{word: 'soso'},
-					{word: 'sin sabor'},
-					{word: 'poco apetitoso'},
-					{word: 'incomible'}	],
+					{word: 'reservado'},
+      				{word: 'controlado'},
+					{word: 'disciplinado'},
+					{word: 'indiferente'},
+					{word: 'desinteresado'},
+					{word: 'desapegado'},
+					{word: 'rechazado'},
+					{word: 'evitativo'}	],
 					//Stimulus css
 					stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 					},
 			attribute2 : {
-				name : 'Agradable',
+				name : 'Antojo',
 				title : {
-					media : {word : 'Agradable'},
+					media : {word : 'Antojo'},
 					css : {color:'#0000FF','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 					},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'sabroso'},
-					{word: 'delicioso'},
-					{word: 'rico'},
-					{word: 'apetitoso'},
-					{word: 'lleno de sabor'},
-					{word: 'atractivo'},
+					{word: 'indulgente'},
+					{word: 'tantado'},
+					{word: 'deseoso'},
+					{word: 'hambriento'},
+					{word: 'insaciable'},
+					{word: 'irresistible'},
+					{word: 'adictivo'},
 					{word: 'exquisito'}	],
 					//Stimulus css
 					stimulusCss : {color:'#0000FF','font-size':'2.3em'}
