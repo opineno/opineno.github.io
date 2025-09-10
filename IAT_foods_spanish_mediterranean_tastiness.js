@@ -40,38 +40,38 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		      },	
     		attribute1 : {
-				name : 'Not Enjoyable',
+				name : 'Desagradable',
 				title : {
-					media : {word : 'Not Enjoyable'},
+					media : {word : 'Desagradable'},
 					css : {color:'#0000FF','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 					},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'disliked'},
-      				{word: 'less tasty'},
-					{word: 'unappealing'},
-					{word: 'bland'},
-					{word: 'flavorless'},
-					{word: 'unappetizing'},
-					{word: 'unpalatable'}	],
+					{word: 'repugnante'},
+      				{word: 'menos sabroso'},
+					{word: 'poco atractivo'},
+					{word: 'soso'},
+					{word: 'sin sabor'},
+					{word: 'poco apetitoso'},
+					{word: 'incomible'}	],
 					//Stimulus css
 					stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 					},
 			attribute2 : {
-				name : 'Enjoyable',
+				name : 'Agradable',
 				title : {
-					media : {word : 'Enjoyable'},
+					media : {word : 'Agradable'},
 					css : {color:'#0000FF','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 					},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'tasty'},
-					{word: 'delicious'},
-					{word: 'yummy'},
-					{word: 'appetizing'},
-					{word: 'flavorful'},
-					{word: 'appealing'},
-					{word: 'mouthwatering'}	],
+					{word: 'sabroso'},
+					{word: 'delicioso'},
+					{word: 'rico'},
+					{word: 'apetitoso'},
+					{word: 'lleno de sabor'},
+					{word: 'atractivo'},
+					{word: 'exquisito'}	],
 					//Stimulus css
 					stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 					},
