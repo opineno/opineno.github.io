@@ -67,7 +67,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 					},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
 					{word: 'indulgente'},
-					{word: 'tantado'},
+					{word: 'tentado'},
 					{word: 'deseoso'},
 					{word: 'hambriento'},
 					{word: 'insaciable'},
