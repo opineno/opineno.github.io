@@ -69,7 +69,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 					{word: 'delicioso'},
 					{word: 'rico'},
 					{word: 'apetitoso'},
-					{word: 'lleno de sabor'},
+					{word: 'sabor intenso'},
 					{word: 'atractivo'},
 					{word: 'exquisito'}	],
 					//Stimulus css
