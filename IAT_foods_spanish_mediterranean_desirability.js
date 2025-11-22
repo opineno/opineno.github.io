@@ -42,7 +42,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
     		attribute1 : {
 				name : 'Moderación',
 				title : {
-					media : {word : 'Desagradable'},
+					media : {word : 'Moderación'},
 					css : {color:'#0000FF','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 					},
