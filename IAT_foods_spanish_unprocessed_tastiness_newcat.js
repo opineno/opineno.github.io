@@ -6,9 +6,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 		//OP note: category1 and category2 now inverted to match their compatible attributes in the main source code
     
           	category1 : {
-				name : 'Comida industrial', //Will appear in the data.
+				name : 'Comida ultraprocesada', //Will appear in the data.
 		        title : {
-	          		media : {word : 'Comida industrial'}, //Name of the category presented in the task.
+	          		media : {word : 'Comida ultraprocesada'}, //Name of the category presented in the task.
 	          		css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
           			height : 4 //Used to position the "Or" in the combined block.
             		}, 
