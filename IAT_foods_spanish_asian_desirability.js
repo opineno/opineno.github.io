@@ -30,12 +30,12 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 					height : 4 //Used to position the "Or" in the combined block.
 		       		 }, 
 		        stimulusMedia : [ //Stimuli content as PIP's media objects
-    		        {image : 'Paella.jpg'}, 
-    	        	{image : 'Queso.jpg'}, 
-    	        	{image : 'Aceitunas.jpg'}, 
-            		{image : 'Gazpacho.jpg'}, 
-            		{image : 'Bacalao.jpg'}, 
-    	        	{image : 'Tortilla.jpg'}  ], 
+    		        {image : 'Bibimbap.jpg'}, 
+    	        	{image : 'Butter_chicken.jpg'}, 
+    	        	{image : 'Chicken_satay.jpg'}, 
+            		{image : 'Kung_pao_chicken.jpg'}, 
+            		{image : 'Pad_thai.jpg'}, 
+    	        	{image : 'Ramen.jpg'}  ], 
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		      },	
