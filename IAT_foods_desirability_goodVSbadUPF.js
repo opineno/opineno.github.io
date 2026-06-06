@@ -6,36 +6,36 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 		//OP note: category1 and category2 now inverted to match their compatible attributes in the main source code
     
           	category1 : {
-			name : 'Junk food', //Will appear in the data.
+			name : 'Low fat-sugar-salt food', //Will appear in the data.
 		        title : {
-		          	media : {word : 'Junk food'}, //Name of the category presented in the task.
+		          	media : {word : 'Low fat-sugar-salt food'}, //Name of the category presented in the task.
 		          	css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 	          		height : 4 //Used to position the "Or" in the combined block.
             		}, 
             	stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    	{image : 'Potato_chips.jpg'}, 
-	        		{image : 'French_fries.jpg'}, 
-	        		{image : 'Fried_chicken.jpg'}, 
-	        		{image : 'Pizza.jpg'}, 
-	        		{image : 'Soda.jpg'}, 
-        	        {image : 'Candy_bar.jpg'}  ], 
+    		    	{image : 'Coca_Cola_Zero.jpg'}, 
+	        		{image : 'Fiber_cereal.jpg'}, 
+	        		{image : 'Frozen_yogurt.jpg'}, 
+	        		{image : 'Fruit_gummies.jpg'}, 
+	        		{image : 'Lentil_chips.jpg'}, 
+        	        {image : 'Protein_bar.jpg'}  ], 
         	    	//Stimulus css
             		stimulusCss : {color:'#31940F','font-size':'1.8em'}
 	      	    },
           	category2 : {
-			name : 'Healthy food', //Will appear in the data.
+			name : 'High fat-sugar-salt food', //Will appear in the data.
 		        title : {
-			        media : {word : 'Healthy food'}, //Name of the category presented in the task.
+			        media : {word : 'High fat-sugar-salt food'}, //Name of the category presented in the task.
 			        css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 			        }, 
-		        stimulusMedia : [ //Stimuli content as PIP's media objects
-    		        {image : 'Almonds.jpg'}, 
-    	        	{image : 'Blueberries.jpg'}, 
-    	        	{image : 'Salmon.jpg'}, 
-            		{image : 'Eggs.jpg'}, 
-            		{image : 'Avocado.jpg'}, 
-    	        	{image : 'Broccoli.jpg'}  ], 
+		       stimulusMedia : [ //Stimuli content as PIP's media objects
+    		    	{image : 'Candy_bar.jpg'}, 
+	        		{image : 'Coca_Cola.jpg'}, 
+	        		{image : 'Fruit_loops.jpg'}, 
+	        		{image : 'Gummy_bears.jpg'}, 
+	        		{image : 'Ice_cream.jpg'}, 
+        	        {image : 'Potato_chips.jpg'}  ], 
 					//Stimulus css (style)
 					stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		     	},
