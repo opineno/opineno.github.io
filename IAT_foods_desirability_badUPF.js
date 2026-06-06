@@ -6,7 +6,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 		//OP note: category1 and category2 now inverted to match their compatible attributes in the main source code
     
           	category1 : {
-			name : 'Junk food', //Will appear in the data.
+			name : 'Ultra-processed food', //Will appear in the data.
 		        title : {
 		          	media : {word : 'Junk food'}, //Name of the category presented in the task.
 		          	css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
@@ -18,12 +18,12 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 	        		{image : 'Fruit_loops.jpg'}, 
 	        		{image : 'Gummy_bears.jpg'}, 
 	        		{image : 'Ice_cream.jpg'}, 
-        	        {image : 'Potato_chips.jpg'}  ], 
+        	        {image : 'Potato_chips.jpg'}  ],
         	    	//Stimulus css
             		stimulusCss : {color:'#31940F','font-size':'1.8em'}
 	      	    },
           	category2 : {
-			name : 'Healthy food', //Will appear in the data.
+			name : 'Unprocessed food', //Will appear in the data.
 		        title : {
 			        media : {word : 'Healthy food'}, //Name of the category presented in the task.
 			        css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
@@ -35,7 +35,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
     	        	{image : 'Blueberries.jpg'}, 
             		{image : 'Broccoli.jpg'}, 
             		{image : 'Eggs.jpg'}, 
-    	        	{image : 'Salmon.jpg'}  ], 
+    	        	{image : 'Salmon.jpg'}  ],
 					//Stimulus css (style)
 					stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		     	},
