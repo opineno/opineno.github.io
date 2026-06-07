@@ -14,8 +14,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
             		}, 
             	stimulusMedia : [ //Stimuli content as PIP's media objects
     		    	{image : 'Candy_bar.jpg'}, 
+	        		{image : 'Cereal.jpg'}, 
 	        		{image : 'Coca_Cola.jpg'}, 
-	        		{image : 'Fruit_loops.jpg'}, 
 	        		{image : 'Gummy_bears.jpg'}, 
 	        		{image : 'Ice_cream.jpg'}, 
         	        {image : 'Potato_chips.jpg'}  ],
