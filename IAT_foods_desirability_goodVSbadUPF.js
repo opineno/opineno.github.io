@@ -6,23 +6,6 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 		//OP note: category1 and category2 now inverted to match their compatible attributes in the main source code
     
           	category1 : {
-			name : 'Low fat-sugar-salt food', //Will appear in the data.
-		        title : {
-		          	media : {word : 'Low fat-sugar-salt food'}, //Name of the category presented in the task.
-		          	css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
-	          		height : 4 //Used to position the "Or" in the combined block.
-            		}, 
-            	stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    	{image : 'Coca_Cola_Zero.jpg'}, 
-	        		{image : 'Fiber_cereal.jpg'}, 
-	        		{image : 'Frozen_yogurt.jpg'}, 
-	        		{image : 'Fruit_gummies.jpg'}, 
-	        		{image : 'Lentil_chips.jpg'}, 
-        	        {image : 'Protein_bar.jpg'}  ], 
-        	    	//Stimulus css
-            		stimulusCss : {color:'#31940F','font-size':'1.8em'}
-	      	    },
-          	category2 : {
 			name : 'High fat-sugar-salt food', //Will appear in the data.
 		        title : {
 			        media : {word : 'High fat-sugar-salt food'}, //Name of the category presented in the task.
@@ -39,7 +22,24 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/opineno/opineno.github.io@main/fu
 					//Stimulus css (style)
 					stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		     	},
-		attribute1 : {
+			category2 : {
+			name : 'Low fat-sugar-salt food', //Will appear in the data.
+		        title : {
+		          	media : {word : 'Low fat-sugar-salt food'}, //Name of the category presented in the task.
+		          	css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
+	          		height : 4 //Used to position the "Or" in the combined block.
+            		}, 
+            	stimulusMedia : [ //Stimuli content as PIP's media objects
+    		    	{image : 'Coca_Cola_Zero.jpg'}, 
+	        		{image : 'Fiber_cereal.jpg'}, 
+	        		{image : 'Frozen_yogurt.jpg'}, 
+	        		{image : 'Fruit_gummies.jpg'}, 
+	        		{image : 'Lentil_chips.jpg'}, 
+        	        {image : 'Protein_bar.jpg'}  ], 
+        	    	//Stimulus css
+            		stimulusCss : {color:'#31940F','font-size':'1.8em'}
+	      	    },
+			attribute1 : {
 			name : 'Restraint',
 			title : {
 				media : {word : 'Restraint'},
